@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "cooper black";
+  src: url(COOPBL.TTF);
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+h1 {
+  font-family: "cooper black";
+  background: linear-gradient(
+    to right,
+    rgb(195, 0, 255),
+    white,
+    rgb(195, 0, 255)
+  );
+  text-align: center;
+  background-clip: text;
+}
