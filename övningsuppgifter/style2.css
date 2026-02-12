@@ -27,7 +27,7 @@ h1 {
   background-clip: text;
   color: transparent;
   background-size: 200%;
-  animation: textanimation 3s linear infinite;
+  animation: textanimation 1s linear infinite;
 }
 
 @keyframes textanimation {
